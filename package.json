@@ -1,0 +1,22 @@
+{
+  "name": "insomnia-workspace-generator",
+  "version": "0.0.1",
+  "description": "Insomnia workspace generator, with authentication applied.",
+  "main": "bin/index.js",
+  "bin": {
+    "@sebastianjonasson/gen-insomnia-workspace": "bin/index.js",
+    "gen-insomnia-workspace": "bin/index.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Sebastian Jonasson <sebastianjonasson@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "insomnia-importers": "^2.2.3"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
